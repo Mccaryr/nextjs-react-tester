@@ -5,6 +5,8 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {Table} from "@/components/ui/table";
+import {TableDemo} from "@/components/ui/shadcn/table";
 
 export default function Home() {
   return (
@@ -22,7 +24,7 @@ export default function Home() {
             <CardTitle></CardTitle>
             <CardDescription></CardDescription>
           </CardHeader>
-          <CardContent>{/* content goes here */}</CardContent>
+          <CardContent><TableDemo /></CardContent>
         </Card>
       </div>
     </div>
